@@ -1,0 +1,39 @@
+name: CCTVCraft NeoForge - Bug Report
+description: Report a bug for CCTVCraft NeoForge version
+assignees: "NorthWestTrees"
+title: "[Bug] <title>"
+labels: [New, Bug]
+body:
+- type: textarea
+  attributes:
+    label: Bug/Issue Description
+    description: Describe the issue or bug here
+    placeholder: Eg. Monitors will not turn off like they used to
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Mod Information
+    description: List the ADDON and BUILD here
+    placeholder: | 
+      Eg:
+      - CCTVCraft Core r1.0.0
+      - CCTVCraft Cameras r1.0.0
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Game Information
+    description: List the API (Forge/NeoForge) and the BUILD for that API
+    placeholder: |
+      Eg:
+      - NeoForge 1.20.1
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Crash Report and Attachments
+    description: If the game crashes provide the crash report here.
+    placeholder: Drag and drop the files here.
+  validations:
+    required: false
