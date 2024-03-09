@@ -16,7 +16,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Crash Report and Attachments
+    label: Attachments
     description: |
       - *(OPTIONAL)*
       You can also drag and drop images here to share them as examples.
