@@ -7,33 +7,37 @@ body:
 - type: textarea
   attributes:
     label: Bug/Issue Description
-    description: Describe the issue or bug here
-    placeholder: Eg. Monitors will not turn off like they used to.
+    description: Describe the issue or bug here. Eg: Monitors will not turn off like they used to.
+    placeholder: Describe the issue or bug here.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Mod Information
-    description: List the ADDON and BUILD here
-    placeholder: | 
-      Eg:
+    description: | 
+      List the ADDON and BUILD here.
+      Eg: 
       - CCTVCraft Core r1.0.0
       - CCTVCraft Cameras r1.0.0
+    placeholder: List the ADDON and BUILD here.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Game Information
-    description: List the API (Forge/NeoForge) and the BUILD for that API
-    placeholder: |
+    description: |
+      List the game information for NeoForge
       Eg:
       - NeoForge 1.20.1
+    placeholder: List the game information for NeoForge
   validations:
     required: true
 - type: textarea
   attributes:
     label: Crash Report and Attachments
-    description: If the game crashes provide the crash report here.
+    description: | 
+      If the game crashes provide the crash report here.
+      You can also drop images to show visual issues.
     placeholder: Drag and drop the files here.
   validations:
     required: false
