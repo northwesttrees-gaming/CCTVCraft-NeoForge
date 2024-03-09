@@ -1,37 +1,17 @@
 name: CCTVCraft NeoForge - Feature Request
 description: Share Suggestion or Feature Request!
 assignees: "NorthWestTreesgaming"
-title: "[Bug] <title>"
-labels: [New, Bug]
+title: "[Feature] <title>"
+labels: [New, Feature]
 body:
 - type: textarea
   attributes:
-    label: Bug/Issue Description
+    label: Suggestion/Feature Description
     description: |
       - *(REQUIRED)*
-      Describe the issue or bug here. 
-      *Example:* Monitors will not turn off like they used to.
-    placeholder: Describe the issue or bug here.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Mod Information
-    description: |
-      - *(REQUIRED)*
-      List the ADDON and BUILD here.
-      *Example:* CCTVCraft Core r1.0.0, CCTVCraft Cameras r1.0.0
-    placeholder: List the ADDON and BUILD here.
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Game Information
-    description: |
-      - *(REQUIRED)*
-      List the game information for NeoForge here.
-      *Example:* NeoForge 1.20.1
-    placeholder: List the game information for NeoForge here.
+      Describe the suggestion or feature here. 
+      *Example:* AI drones that can be set to pathfind around your base.
+    placeholder: Describe the suggestion or feature here. 
   validations:
     required: true
 - type: textarea
@@ -39,8 +19,7 @@ body:
     label: Crash Report and Attachments
     description: |
       - *(OPTIONAL)*
-      If the game crashes provide the crash report here.
-      You can also drop images to show visual issues.
+      You can also drag and drop images here to share them as examples.
     placeholder: Drag and drop the files here.
   validations:
     required: false
