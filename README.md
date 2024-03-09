@@ -1,4 +1,4 @@
-# CCTV Craft for NeoForge
+# CCTVCraft for NeoForge
 Whether you want to spy on your friend's house on a server or keep an eye on your village, CCTV Craft will provide you the tools to watch whatever you want anywhere you want. We have used MCreator to make this complex mod from the ground up. NorthWestTrees Gaming maintains the mod.
 
 # 🦊 Why NeoForge
