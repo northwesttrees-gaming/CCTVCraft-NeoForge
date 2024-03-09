@@ -7,7 +7,9 @@ body:
 - type: textarea
   attributes:
     label: Bug/Issue Description
-    description: Describe the issue or bug here. Eg: Monitors will not turn off like they used to.
+    description: | 
+      Describe the issue or bug here. 
+      Eg: Monitors will not turn off like they used to.
     placeholder: Describe the issue or bug here.
   validations:
     required: true
