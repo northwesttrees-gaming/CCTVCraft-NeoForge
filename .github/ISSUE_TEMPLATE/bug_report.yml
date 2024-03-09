@@ -7,7 +7,8 @@ body:
 - type: textarea
   attributes:
     label: Bug/Issue Description
-    description: | 
+    description: |
+      - *(REQUIRED)*
       Describe the issue or bug here. 
       *Example:* Monitors will not turn off like they used to.
     placeholder: Describe the issue or bug here.
@@ -16,7 +17,8 @@ body:
 - type: textarea
   attributes:
     label: Mod Information
-    description: | 
+    description: |
+      - *(REQUIRED)*
       List the ADDON and BUILD here.
       *Example:* CCTVCraft Core r1.0.0, CCTVCraft Cameras r1.0.0
     placeholder: List the ADDON and BUILD here.
@@ -26,15 +28,17 @@ body:
   attributes:
     label: Game Information
     description: |
-      List the game information for NeoForge
+      - *(REQUIRED)*
+      List the game information for NeoForge here.
       *Example:* NeoForge 1.20.1
-    placeholder: List the game information for NeoForge
+    placeholder: List the game information for NeoForge here.
   validations:
     required: true
 - type: textarea
   attributes:
     label: Crash Report and Attachments
-    description: | 
+    description: |
+      - *(OPTIONAL)*
       If the game crashes provide the crash report here.
       You can also drop images to show visual issues.
     placeholder: Drag and drop the files here.
