@@ -1,15 +1,15 @@
 name: CCTVCraft NeoForge - Bug Report
 description: Report a bug or issue!
 assignees: "NorthWestTreesgaming"
-title: "[Bug] <title>"
-labels: [New, Bug]
+title: "[Feature] <title>"
+labels: [New, Feature]
 body:
 - type: textarea
   attributes:
-    label: Bug/Issue Description
+    label: Suggestion/Feature Description
     description: |
       - *(REQUIRED)*
-      Describe the issue or bug here. 
+      Describe the suggestion or feature here.
       *Example:* Monitors will not turn off like they used to.
     placeholder: Describe the issue or bug here.
   validations:
